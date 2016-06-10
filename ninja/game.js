@@ -52,7 +52,7 @@ window.onload = function() {
      game.state.add("Play",play);
      game.state.start("Play");
 	function updateScore(){
-		scoreText.text = "Score: "+score+"\nBest: "+topScore;	
+		scoreText.text = "Votes: "+score+"\nBest: "+topScore;	
 	}     
 	function prepareToJump(){
 		if(ninja.body.velocity.y==0){
